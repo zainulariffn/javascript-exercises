@@ -6,5 +6,6 @@ const repeatString = function (word, times) {
   }
   return string;
 };
+console.log(repeatString("Hey", 3));
 
 module.exports = repeatString;
